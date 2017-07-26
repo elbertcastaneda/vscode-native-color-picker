@@ -31,7 +31,7 @@ var nativeColorPickerExtension = {
     var disposable = vscode.commands.registerCommand('extension.pickColor', function () {
         // The code you place here will be executed every time your command is executed
 
-        // Display a message box to the user #000000
+        // Open Native Color Picker
         self.pick();
     });
 
@@ -101,7 +101,6 @@ var nativeColorPickerExtension = {
 /**
  * Is the selected color text valid. Currently only supports hexadecimal form.
  */
-
 function isValidColor(text) {
   return hexColorRegEx.test(text);
 }

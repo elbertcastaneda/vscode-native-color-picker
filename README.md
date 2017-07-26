@@ -23,8 +23,8 @@ None
 
 Users appreciate release notes as you update your extension.
 
-### 0.0.3
+### 0.0.5
 
-Initial release of ....
+Initial release of Native Color Picker Entension
 
 -----------------------------------------------------------------------------------------
